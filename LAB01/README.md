@@ -1,6 +1,4 @@
 # LAB01 - La maldición de la dimensionlidad
-Para ejecutar el c'odigo:
-https://colab.research.google.com/drive/1rdol3aJKCFRGCgm5BjQOh-d_ML5qAtBp?usp=sharing
 ## C++ Program
 Compilamos el programa que calcula las distancias entre puntos
 ```bash
@@ -56,4 +54,7 @@ El programa nos pedira insertar una dimensi'on
 ![Histograma dimension_2000 30x30](https://github.com/ronaldtito/EDA/blob/9b30153fcd6a49ba1826a2e9b28366c35ec6f180/LAB01/Figures/dimension_2000.png)
 ## Histograma de las distancias entre puntos con dimension 5000
 ![Histograma dimension_5000 30x30](https://github.com/ronaldtito/EDA/blob/9b30153fcd6a49ba1826a2e9b28366c35ec6f180/LAB01/Figures/dimension_5000.png)
+## 
+Para ejecutar el c'odigo:
+https://colab.research.google.com/drive/1rdol3aJKCFRGCgm5BjQOh-d_ML5qAtBp?usp=sharing
 

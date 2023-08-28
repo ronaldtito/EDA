@@ -31,7 +31,7 @@ Ejecutamos el programa para las diferentes dimensiones
 ```
 Al ejecutar el programa nos crear'a un archivo con las distancias entre los puntos por cada dimensi'on
 
-##Histograma
+## Histograma
 Crearemos el histograma con un programa en python
 
 ```bash

@@ -1,6 +1,6 @@
 # LAB01 - La maldición de la dimensionlidad
 ## C++ Program
-Compilamos el programa que nos calcula las distancias entre puntos
+Compilamos el programa que calcula las distancias entre puntos
 ```bash
 g++ list_of_all_distances.cpp -std=c++11 -o list_of_all_distances
 ```

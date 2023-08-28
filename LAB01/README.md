@@ -57,4 +57,5 @@ El programa nos pedira insertar una dimensi'on
 ## 
 Para ejecutar el c'odigo:
 https://colab.research.google.com/drive/1rdol3aJKCFRGCgm5BjQOh-d_ML5qAtBp?usp=sharing
+Abrirlo con Google Colab
 

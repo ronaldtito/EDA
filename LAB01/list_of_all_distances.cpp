@@ -5,13 +5,15 @@
 #include <string>
 using namespace std;
 
+std::random_device rd;
+std::mt19937 gen(rd());
+uniform_real_distribution<double> distribution(0, 1);
+
 class Point {
 public:
     vector<double> puntos;
     Point(int dimension) {
-        std::random_device rd;
-        std::mt19937 gen(rd());
-        uniform_real_distribution<double> distribution(0, 1);
+        
         for (int i = 0; i < dimension; i++) {
             puntos.push_back(distribution(gen));
         }

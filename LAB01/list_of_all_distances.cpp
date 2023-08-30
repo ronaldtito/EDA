@@ -47,17 +47,10 @@ vector<double> distance_pair_points(vector<Point> space) {
         copy_space.pop_back();
     }
     return all_distances;
-
 }
 
-int main(int argc, char *argv[]) {
-    //La Dimension se pasa por consola
-    int dimension = atoi(argv[1]);
-
-    vector<Point> space = create_Space_dimension_X(dimension);
-    vector<double> all_distance = distance_pair_points(space);
-
-    string name_file="dimension_"+to_string(dimension);
+void create_file(vector<double> all_distance, int dimension) {
+    string name_file = "dimension_" + to_string(dimension);
     ofstream out_file;
 
     //crea un archivo con las distancias entre todos los puntos
@@ -72,5 +65,21 @@ int main(int argc, char *argv[]) {
         }
         out_file.close();
     }
+}
+
+int main(int argc, char* argv[]) {
+    /*//La Dimension se pasa por consola
+    int dimension = atoi(argv[1]);*/
+
+    int dimensions[8] = {2,10,50,100,500,1000,2000,5000};
+
+    for (int i = 0; i < 8; i++) {
+        vector<Point> space = create_Space_dimension_X(dimensions[i]);
+        vector<double> all_distance = distance_pair_points(space);
+        create_file(all_distance, dimensions[i]);
+    }
+    
+
+    
     return 0;
 }

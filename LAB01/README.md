@@ -20,7 +20,7 @@ El programa nos pedira insertar una dimensi'on
 ## Histograma de las distancias entre puntos con dimension 2
 ![Histograma dimension_2 30x30](https://github.com/ronaldtito/EDA/blob/9b30153fcd6a49ba1826a2e9b28366c35ec6f180/LAB01/Figures/dimension_2.png)
 ## Histograma de las distancias entre puntos con dimension 10
-![Histograma dimension_10 30x30](https://github.com/ronaldtito/EDA/blob/9b30153fcd6a49ba1826a2e9b28366c35ec6f180/LAB01/Figures/dimension_10.png)
+![Histograma dimension_10 30x30](https://github.com/ronaldtito/EDA/blob/bcdf74bdca0869a14fcc86de98c24c4f22da04d2/LAB01/Figures/dimension_10.png)
 ## Histograma de las distancias entre puntos con dimension 50
 ![Histograma dimension_50 30x30](https://github.com/ronaldtito/EDA/blob/9b30153fcd6a49ba1826a2e9b28366c35ec6f180/LAB01/Figures/dimension_50.png)
 ## Histograma de las distancias entre puntos con dimension 100

@@ -34,7 +34,7 @@ El programa nos pedira insertar una dimensi'on
 ## Histograma de las distancias entre puntos con dimension 5000
 ![Histograma dimension_5000 30x30](https://github.com/ronaldtito/EDA/blob/9404882edee9d20cc0c2b3ad5fb14a335e820072/LAB01/Figures/dimension_5000.png)
 ## 
-Para ejecutar el c'odigo, abrirlo con Google Colab:
+Google Colab:
 https://colab.research.google.com/drive/1rdol3aJKCFRGCgm5BjQOh-d_ML5qAtBp?usp=sharing
 
 

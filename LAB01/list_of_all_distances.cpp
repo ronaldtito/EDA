@@ -5,6 +5,8 @@
 #include <string>
 using namespace std;
 
+
+// Crea un punto entre el rando de [0,1]
 std::random_device rd;
 std::mt19937 gen(rd());
 uniform_real_distribution<double> distribution(0, 1);
@@ -23,6 +25,7 @@ public:
     }
 };
 
+//Genera 100 puntos de una determina dimension
 vector<Point> create_Space_dimension_X(int dimension) {
     vector<Point> space;
     for (int i = 0; i < 100; i++) {
@@ -31,6 +34,7 @@ vector<Point> create_Space_dimension_X(int dimension) {
     return space;
 }
 
+//Funcion para hallar distancia euclidiana entre un par de puntos
 double euclidean_distance(Point A, Point B) {
     double distance = 0;
     for (int i = 0; i < A.size_Point(); i++) {
@@ -39,6 +43,7 @@ double euclidean_distance(Point A, Point B) {
     return pow(distance, 0.5);
 }
 
+//Calcula la funcion para calcular la distancia euclidiana entre todo los pares de puntos
 vector<double> distance_pair_points(vector<Point> space) {
     vector<double> all_distances;
     vector<Point> copy_space = space;
@@ -51,6 +56,7 @@ vector<double> distance_pair_points(vector<Point> space) {
     return all_distances;
 }
 
+//Crea un archivo de la distancia entre todos los pares de puntos
 void create_file(vector<double> all_distance, int dimension) {
     string name_file = "dimension_" + to_string(dimension);
     ofstream out_file;
